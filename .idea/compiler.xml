@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="groupon-admin-controller" />
+        <module name="groupon-admin-web" />
+        <module name="groupon-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="groupon" target="1.5" />
+      <module name="groupon-admin" target="1.5" />
+      <module name="groupon-admin-controller" target="1.5" />
+      <module name="groupon-admin-web" target="1.5" />
+      <module name="groupon-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
